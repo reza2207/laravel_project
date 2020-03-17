@@ -1,0 +1,175 @@
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff;
+  line-height: 500px;
+  background: #000;
+  position: relative;
+  margin: auto;
+}
+.center-align {
+  position: absolute;
+  top: 50%;
+  margin: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.status{
+  font-family: caviarDream;
+}
+.datepost{
+  font-size: 12px;
+  font-family: caviarDream;
+}
+
+.user-name{
+  font-family: modernSans;
+  color:white;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-family: modernSans;
+  font-weight: bolder;
+}
+@font-face {
+    font-family: crackWall;
+    src: url('../fonts/CRACKWALL-Regular.ttf');
+}
+
+@font-face {
+    font-family: caviarDreams;
+    src: url('../fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: modernSans;
+    src: url('../fonts/ModernSans-Light.otf');
+}
+
+@font-face {
+    font-family: comfortaa;
+    src: url('../fonts/Comfortaa-Regular.ttf');
+}
+
+@font-face {
+    font-family: happySchool;
+    src: url('../fonts/Happy School.otf');
+}
+
+.welcome-message{
+  font-family: comfortaa;
+  font-size: 4em;
+  text-decoration: underline;
+  text-decoration-line: 
+}
+.welcome-message:hover{
+  color:red;
+}
+.card-front > i {
+  font-size: 6em;
+  text-align: center;
+  color:white;
+  
+  vertical-align: middle;
+}
+.card-front:hover > *{
+  color: red !important;
+  
+
+}
+.card-front:hover{
+  border-color: 2px solid white;
+  outline: white solid 2px;
+}
+.card-front > h2, #btnregister{
+  font-family: crackWall;
+  color: white;
+}
+.card-front{
+  background-color: #2a283d;
+}
+
+[data-letters]:before {
+  content:attr(data-letters);
+  display:inline-block;
+  font-size:1em;
+  width:2.5em;
+  height:2.5em;
+  line-height:2.5em;
+  text-align:center;
+  border-radius:50%;
+  background:plum;
+  vertical-align:middle;
+  margin-right:1em;
+  color:white;
+  }
+
+.avatar-circle {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.initials {
+  position: relative;
+  top: 25px; /* 25% of parent */
+  font-size: 25px; /* 50% of parent */
+  line-height: 25px; /* 50% of parent */
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+.user-picture {
+  margin:auto;
+}
+
+.rounded-circle{
+  border: 1px solid red;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  /*box-shadow:inset -1px 0 0 rgba(0, 0, 0, .1);*/
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+[role="main"] {
+
+    padding-top: 48px;
+
+}
+main{
+  height: calc(100vh - 48px);
+  top:0;
+  position:relative;
+}
+
